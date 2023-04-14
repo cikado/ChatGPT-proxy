@@ -7,7 +7,7 @@ export const MODERATION = true; // Moderation mode
 
 // Rate limit
 export const PRIOD = 15 * 1000; // 15 seconds
-export const RATE_LIMIT = 50; // 50 requests per 15 seconds
+export const RATE_LIMIT = 5000; // 50 requests per 15 seconds
 
 // Whitelisted IPs
 export const WHITELISTED_IPS = [
@@ -17,7 +17,5 @@ export const WHITELISTED_IPS = [
 // OpenAI API Keys
 export let OPENAI_KEYS = [
     "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ];
